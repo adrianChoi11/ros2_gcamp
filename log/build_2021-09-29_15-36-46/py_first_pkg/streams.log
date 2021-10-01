@@ -1,0 +1,27 @@
+[0.463s] Invoking command in '/home/apple/gcamp_ros2_ws/build/py_first_pkg': PYTHONPATH=/home/apple/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/apple/gcamp_ros2_ws/install/py_first_pkg --editable --build-directory /home/apple/gcamp_ros2_ws/build/py_first_pkg/build --no-deps install_data --install-dir /home/apple/gcamp_ros2_ws/install/py_first_pkg
+[0.692s] running develop
+[0.821s] running egg_info
+[0.821s] creating py_first_pkg.egg-info
+[0.822s] writing py_first_pkg.egg-info/PKG-INFO
+[0.822s] writing dependency_links to py_first_pkg.egg-info/dependency_links.txt
+[0.822s] writing entry points to py_first_pkg.egg-info/entry_points.txt
+[0.822s] writing requirements to py_first_pkg.egg-info/requires.txt
+[0.822s] writing top-level names to py_first_pkg.egg-info/top_level.txt
+[0.823s] writing manifest file 'py_first_pkg.egg-info/SOURCES.txt'
+[0.847s] reading manifest file 'py_first_pkg.egg-info/SOURCES.txt'
+[0.848s] writing manifest file 'py_first_pkg.egg-info/SOURCES.txt'
+[0.876s] running build_ext
+[0.876s] Creating /home/apple/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages/site.py
+[0.878s] Creating /home/apple/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages/py-first-pkg.egg-link (link to .)
+[0.879s] Installing hello_ros_node script to /home/apple/gcamp_ros2_ws/install/py_first_pkg/lib/py_first_pkg
+[0.879s] 
+[0.879s] Installed /home/apple/gcamp_ros2_ws/build/py_first_pkg
+[0.879s] running install_data
+[0.879s] creating /home/apple/gcamp_ros2_ws/install/py_first_pkg/share/ament_index
+[0.879s] creating /home/apple/gcamp_ros2_ws/install/py_first_pkg/share/ament_index/resource_index
+[0.879s] creating /home/apple/gcamp_ros2_ws/install/py_first_pkg/share/ament_index/resource_index/packages
+[0.879s] copying resource/py_first_pkg -> /home/apple/gcamp_ros2_ws/install/py_first_pkg/share/ament_index/resource_index/packages
+[0.879s] copying package.xml -> /home/apple/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg
+[0.880s] creating /home/apple/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/launch
+[0.880s] copying launch/hello_ros.launch.py -> /home/apple/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/launch
+[0.916s] Invoked command in '/home/apple/gcamp_ros2_ws/build/py_first_pkg' returned '0': PYTHONPATH=/home/apple/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/apple/gcamp_ros2_ws/install/py_first_pkg --editable --build-directory /home/apple/gcamp_ros2_ws/build/py_first_pkg/build --no-deps install_data --install-dir /home/apple/gcamp_ros2_ws/install/py_first_pkg

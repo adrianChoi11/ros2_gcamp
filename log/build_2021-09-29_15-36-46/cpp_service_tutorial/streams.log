@@ -1,0 +1,92 @@
+[0.035s] Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake /home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial
+[0.467s] -- The C compiler identification is GNU 9.3.0
+[0.467s] -- The CXX compiler identification is GNU 9.3.0
+[0.468s] -- Check for working C compiler: /usr/bin/cc
+[0.468s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.468s] -- Detecting C compiler ABI info
+[0.470s] -- Detecting C compiler ABI info - done
+[0.470s] -- Detecting C compile features
+[0.470s] -- Detecting C compile features - done
+[0.470s] -- Check for working CXX compiler: /usr/bin/c++
+[0.471s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.472s] -- Detecting CXX compiler ABI info
+[0.473s] -- Detecting CXX compiler ABI info - done
+[0.474s] -- Detecting CXX compile features
+[0.474s] -- Detecting CXX compile features - done
+[0.475s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.475s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.475s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.560s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.580s] -- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.603s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.609s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.669s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.693s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.755s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.793s] -- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)
+[0.802s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.838s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.840s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.840s] -- Looking for pthread.h
+[0.896s] -- Looking for pthread.h - found
+[0.897s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.961s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.961s] -- Looking for pthread_create in pthreads
+[1.005s] -- Looking for pthread_create in pthreads - not found
+[1.005s] -- Looking for pthread_create in pthread
+[1.065s] -- Looking for pthread_create in pthread - found
+[1.066s] -- Found Threads: TRUE  
+[1.181s] -- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+[1.387s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.486s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.486s] -- Configured cppcheck include dirs: 
+[1.486s] -- Configured cppcheck exclude dirs and/or files: 
+[1.487s] -- Added test 'lint_cmake' to check CMake code style
+[1.489s] -- Added test 'uncrustify' to check C / C++ code style
+[1.489s] -- Configured uncrustify additional arguments: 
+[1.490s] -- Added test 'xmllint' to check XML markup files
+[1.495s] -- Configuring done
+[1.533s] -- Generating done
+[1.535s] -- Build files have been written to: /home/apple/gcamp_ros2_ws/build/cpp_service_tutorial
+[1.552s] Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake /home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial
+[1.553s] Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/cpp_service_tutorial -- -j12 -l12
+[1.628s] [35m[1mScanning dependencies of target srv_client_node[0m
+[1.681s] [35m[1mScanning dependencies of target srv_server_node[0m
+[1.709s] [35m[1mScanning dependencies of target cpp_simple_service_dummy_server_node[0m
+[1.720s] [ 12%] [32mBuilding CXX object CMakeFiles/srv_client_node.dir/src/srv_client.cpp.o[0m
+[1.741s] [35m[1mScanning dependencies of target cpp_simple_service_client_node[0m
+[1.801s] [ 25%] [32mBuilding CXX object CMakeFiles/srv_server_node.dir/src/srv_server.cpp.o[0m
+[1.837s] [ 37%] [32mBuilding CXX object CMakeFiles/cpp_simple_service_client_node.dir/src/cpp_simple_service_client.cpp.o[0m
+[1.845s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_simple_service_dummy_server_node.dir/src/cpp_simple_service_dummy_server.cpp.o[0m
+[6.231s] [ 62%] [32m[1mLinking CXX executable cpp_simple_service_dummy_server_node[0m
+[6.575s] [ 75%] [32m[1mLinking CXX executable cpp_simple_service_client_node[0m
+[6.752s] [ 75%] Built target cpp_simple_service_dummy_server_node
+[6.831s] [ 87%] [32m[1mLinking CXX executable srv_server_node[0m
+[6.850s] [100%] [32m[1mLinking CXX executable srv_client_node[0m
+[6.969s] [100%] Built target cpp_simple_service_client_node
+[7.129s] [100%] Built target srv_server_node
+[7.135s] [100%] Built target srv_client_node
+[7.147s] Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/cpp_service_tutorial -- -j12 -l12
+[7.189s] Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/cpp_service_tutorial
+[7.203s] -- Install configuration: ""
+[7.203s] -- Execute custom install script
+[7.204s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/lib/cpp_service_tutorial/cpp_simple_service_client_node
+[7.215s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/lib/cpp_service_tutorial/cpp_simple_service_dummy_server_node
+[7.229s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/lib/cpp_service_tutorial/srv_server_node
+[7.263s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/lib/cpp_service_tutorial/srv_client_node
+[7.263s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/ament_index/resource_index/package_run_dependencies/cpp_service_tutorial
+[7.273s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/ament_index/resource_index/parent_prefix_path/cpp_service_tutorial
+[7.284s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/environment/ament_prefix_path.sh
+[7.292s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/environment/ament_prefix_path.dsv
+[7.305s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/environment/path.sh
+[7.319s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/environment/path.dsv
+[7.331s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/local_setup.bash
+[7.344s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/local_setup.sh
+[7.356s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/local_setup.zsh
+[7.364s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/local_setup.dsv
+[7.372s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.dsv
+[7.380s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/ament_index/resource_index/packages/cpp_service_tutorial
+[7.388s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/cmake/cpp_service_tutorialConfig.cmake
+[7.396s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/cmake/cpp_service_tutorialConfig-version.cmake
+[7.404s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.xml
+[7.416s] Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/cpp_service_tutorial

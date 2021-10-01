@@ -1,0 +1,108 @@
+[0.031s] Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake /home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg
+[0.468s] -- The C compiler identification is GNU 9.3.0
+[0.469s] -- The CXX compiler identification is GNU 9.3.0
+[0.469s] -- Check for working C compiler: /usr/bin/cc
+[0.469s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.469s] -- Detecting C compiler ABI info
+[0.469s] -- Detecting C compiler ABI info - done
+[0.469s] -- Detecting C compile features
+[0.469s] -- Detecting C compile features - done
+[0.469s] -- Check for working CXX compiler: /usr/bin/c++
+[0.469s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.469s] -- Detecting CXX compiler ABI info
+[0.470s] -- Detecting CXX compiler ABI info - done
+[0.470s] -- Detecting CXX compile features
+[0.470s] -- Detecting CXX compile features - done
+[0.470s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.470s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.470s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.560s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.579s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.617s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.623s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.684s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.719s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.808s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.856s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.857s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.858s] -- Looking for pthread.h
+[0.917s] -- Looking for pthread.h - found
+[0.918s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.976s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.976s] -- Looking for pthread_create in pthreads
+[1.021s] -- Looking for pthread_create in pthreads - not found
+[1.021s] -- Looking for pthread_create in pthread
+[1.076s] -- Looking for pthread_create in pthread - found
+[1.077s] -- Found Threads: TRUE  
+[1.201s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.297s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.375s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.377s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.377s] -- Configured cppcheck include dirs: 
+[1.377s] -- Configured cppcheck exclude dirs and/or files: 
+[1.378s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.378s] -- Configured cpplint exclude dirs and/or files: 
+[1.379s] -- Added test 'lint_cmake' to check CMake code style
+[1.380s] -- Added test 'uncrustify' to check C / C++ code style
+[1.380s] -- Configured uncrustify additional arguments: 
+[1.380s] -- Added test 'xmllint' to check XML markup files
+[1.385s] -- Configuring done
+[1.419s] -- Generating done
+[1.421s] -- Build files have been written to: /home/apple/gcamp_ros2_ws/build/cpp_topic_pkg
+[1.428s] Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake /home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg
+[1.431s] Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/cpp_topic_pkg -- -j12 -l12
+[1.472s] [35m[1mScanning dependencies of target topic_sub_oop_node[0m
+[1.473s] [35m[1mScanning dependencies of target laser_sub_node[0m
+[1.473s] [35m[1mScanning dependencies of target parking_node[0m
+[1.473s] [35m[1mScanning dependencies of target topic_pub_node[0m
+[1.474s] [35m[1mScanning dependencies of target topic_sub_node[0m
+[1.493s] [35m[1mScanning dependencies of target cmd_vel_pub_node[0m
+[1.494s] [35m[1mScanning dependencies of target topic_pub_oop_node[0m
+[1.518s] [  7%] [32mBuilding CXX object CMakeFiles/topic_pub_node.dir/src/topic_pub.cpp.o[0m
+[1.524s] [ 14%] [32mBuilding CXX object CMakeFiles/topic_sub_oop_node.dir/src/topic_sub_oop.cpp.o[0m
+[1.527s] [ 21%] [32mBuilding CXX object CMakeFiles/topic_sub_node.dir/src/topic_sub.cpp.o[0m
+[1.538s] [ 28%] [32mBuilding CXX object CMakeFiles/parking_node.dir/src/parking.cpp.o[0m
+[1.547s] [ 35%] [32mBuilding CXX object CMakeFiles/laser_sub_node.dir/src/laser_sub.cpp.o[0m
+[1.551s] [ 42%] [32mBuilding CXX object CMakeFiles/cmd_vel_pub_node.dir/src/cmd_vel_pub.cpp.o[0m
+[1.608s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_pub_oop_node.dir/src/topic_pub_oop.cpp.o[0m
+[7.134s] [ 57%] [32m[1mLinking CXX executable topic_pub_node[0m
+[7.346s] [ 57%] Built target topic_pub_node
+[7.625s] [ 64%] [32m[1mLinking CXX executable topic_pub_oop_node[0m
+[7.806s] [ 64%] Built target topic_pub_oop_node
+[8.021s] [ 71%] [32m[1mLinking CXX executable cmd_vel_pub_node[0m
+[8.253s] [ 71%] Built target cmd_vel_pub_node
+[9.089s] [ 78%] [32m[1mLinking CXX executable topic_sub_oop_node[0m
+[9.288s] [ 78%] Built target topic_sub_oop_node
+[9.338s] [ 85%] [32m[1mLinking CXX executable laser_sub_node[0m
+[9.409s] [ 92%] [32m[1mLinking CXX executable topic_sub_node[0m
+[9.541s] [ 92%] Built target laser_sub_node
+[9.610s] [ 92%] Built target topic_sub_node
+[9.688s] [100%] [32m[1mLinking CXX executable parking_node[0m
+[9.903s] [100%] Built target parking_node
+[9.912s] Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/cpp_topic_pkg -- -j12 -l12
+[9.940s] Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/cpp_topic_pkg
+[9.946s] -- Install configuration: ""
+[9.946s] -- Execute custom install script
+[9.947s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/cmd_vel_pub_node
+[9.954s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/laser_sub_node
+[9.961s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/parking_node
+[9.969s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/topic_pub_node
+[9.976s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/topic_pub_oop_node
+[9.983s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/topic_sub_node
+[9.990s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/topic_sub_oop_node
+[9.997s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_topic_pkg
+[10.004s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_topic_pkg
+[10.011s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/environment/ament_prefix_path.sh
+[10.018s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/environment/ament_prefix_path.dsv
+[10.026s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/environment/path.sh
+[10.032s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/environment/path.dsv
+[10.039s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/local_setup.bash
+[10.045s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/local_setup.sh
+[10.051s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/local_setup.zsh
+[10.057s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/local_setup.dsv
+[10.063s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.dsv
+[10.069s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/ament_index/resource_index/packages/cpp_topic_pkg
+[10.076s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/cmake/cpp_topic_pkgConfig.cmake
+[10.082s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/cmake/cpp_topic_pkgConfig-version.cmake
+[10.088s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.xml
+[10.096s] Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/cpp_topic_pkg

@@ -1,0 +1,29 @@
+[0.021s] Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_service_pkg': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/cpp_service_pkg -- -j12 -l12
+[0.211s] [ 25%] Built target basic_client_node
+[0.211s] [ 50%] Built target robot_turning_client_node
+[0.211s] [ 75%] Built target basic_server_node
+[0.211s] [100%] Built target robot_turning_server_node
+[0.379s] Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/cpp_service_pkg -- -j12 -l12
+[0.407s] Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_service_pkg': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/cpp_service_pkg
+[0.412s] -- Install configuration: ""
+[0.412s] -- Execute custom install script
+[0.413s] -- Up-to-date symlink: /home/apple/gcamp_ros2_ws/install/cpp_service_pkg/lib/cpp_service_pkg/basic_server_node
+[0.413s] -- Up-to-date symlink: /home/apple/gcamp_ros2_ws/install/cpp_service_pkg/lib/cpp_service_pkg/basic_client_node
+[0.413s] -- Up-to-date symlink: /home/apple/gcamp_ros2_ws/install/cpp_service_pkg/lib/cpp_service_pkg/robot_turning_server_node
+[0.413s] -- Up-to-date symlink: /home/apple/gcamp_ros2_ws/install/cpp_service_pkg/lib/cpp_service_pkg/robot_turning_client_node
+[0.414s] -- Up-to-date symlink: /home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_service_pkg
+[0.414s] -- Up-to-date symlink: /home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_service_pkg
+[0.414s] -- Up-to-date symlink: /home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/environment/ament_prefix_path.sh
+[0.414s] -- Up-to-date symlink: /home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/environment/ament_prefix_path.dsv
+[0.415s] -- Up-to-date symlink: /home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/environment/path.sh
+[0.415s] -- Up-to-date symlink: /home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/environment/path.dsv
+[0.415s] -- Up-to-date symlink: /home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.bash
+[0.415s] -- Up-to-date symlink: /home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.sh
+[0.415s] -- Up-to-date symlink: /home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.zsh
+[0.416s] -- Up-to-date symlink: /home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.dsv
+[0.416s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.dsv
+[0.425s] -- Up-to-date symlink: /home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/ament_index/resource_index/packages/cpp_service_pkg
+[0.426s] -- Up-to-date symlink: /home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/cmake/cpp_service_pkgConfig.cmake
+[0.426s] -- Up-to-date symlink: /home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/cmake/cpp_service_pkgConfig-version.cmake
+[0.426s] -- Up-to-date symlink: /home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.xml
+[0.437s] Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/cpp_service_pkg

@@ -1,0 +1,24 @@
+[0.378s] Invoking command in '/home/apple/gcamp_ros2_ws/build/py_service_pkg': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/apple/gcamp_ros2_ws/install/py_service_pkg --editable --build-directory /home/apple/gcamp_ros2_ws/build/py_service_pkg/build --no-deps install_data --install-dir /home/apple/gcamp_ros2_ws/install/py_service_pkg
+[0.556s] running develop
+[0.658s] running egg_info
+[0.658s] writing py_service_pkg.egg-info/PKG-INFO
+[0.658s] writing dependency_links to py_service_pkg.egg-info/dependency_links.txt
+[0.658s] writing entry points to py_service_pkg.egg-info/entry_points.txt
+[0.659s] writing requirements to py_service_pkg.egg-info/requires.txt
+[0.659s] writing top-level names to py_service_pkg.egg-info/top_level.txt
+[0.682s] reading manifest file 'py_service_pkg.egg-info/SOURCES.txt'
+[0.683s] writing manifest file 'py_service_pkg.egg-info/SOURCES.txt'
+[0.708s] running build_ext
+[0.708s] Creating /home/apple/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py-service-pkg.egg-link (link to .)
+[0.709s] Installing basic_client script to /home/apple/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[0.709s] Installing basic_server script to /home/apple/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[0.709s] Installing custom_srv_client script to /home/apple/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[0.710s] Installing custom_srv_server script to /home/apple/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[0.710s] Installing gazebo_model_spawner script to /home/apple/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[0.710s] Installing robot_turning_client script to /home/apple/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[0.710s] Installing robot_turning_server script to /home/apple/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[0.710s] Installing spawn_skidbot script to /home/apple/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[0.710s] 
+[0.710s] Installed /home/apple/gcamp_ros2_ws/build/py_service_pkg
+[0.710s] running install_data
+[0.730s] Invoked command in '/home/apple/gcamp_ros2_ws/build/py_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/apple/gcamp_ros2_ws/install/py_service_pkg --editable --build-directory /home/apple/gcamp_ros2_ws/build/py_service_pkg/build --no-deps install_data --install-dir /home/apple/gcamp_ros2_ws/install/py_service_pkg

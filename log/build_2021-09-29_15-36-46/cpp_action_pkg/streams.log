@@ -1,0 +1,95 @@
+[0.023s] Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_action_pkg': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apple/gcamp_ros2_ws/install/cpp_action_pkg
+[0.210s] -- The C compiler identification is GNU 9.3.0
+[0.210s] -- The CXX compiler identification is GNU 9.3.0
+[0.211s] -- Check for working C compiler: /usr/bin/cc
+[0.212s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.212s] -- Detecting C compiler ABI info
+[0.213s] -- Detecting C compiler ABI info - done
+[0.221s] -- Detecting C compile features
+[0.221s] -- Detecting C compile features - done
+[0.223s] -- Check for working CXX compiler: /usr/bin/c++
+[0.282s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.283s] -- Detecting CXX compiler ABI info
+[0.343s] -- Detecting CXX compiler ABI info - done
+[0.361s] -- Detecting CXX compile features
+[0.361s] -- Detecting CXX compile features - done
+[0.364s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.393s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.393s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.534s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.555s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.592s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.598s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.658s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.681s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.746s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.794s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.795s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.796s] -- Looking for pthread.h
+[0.849s] -- Looking for pthread.h - found
+[0.849s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.903s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.903s] -- Looking for pthread_create in pthreads
+[0.946s] -- Looking for pthread_create in pthreads - not found
+[0.946s] -- Looking for pthread_create in pthread
+[0.998s] -- Looking for pthread_create in pthread - found
+[0.999s] -- Found Threads: TRUE  
+[1.123s] -- Found rclcpp_action: 2.4.0 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.186s] -- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.235s] -- Found custom_interfaces: 0.0.0 (/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake)
+[1.279s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.345s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.346s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.346s] -- Configured cppcheck include dirs: 
+[1.346s] -- Configured cppcheck exclude dirs and/or files: 
+[1.347s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.347s] -- Configured cpplint exclude dirs and/or files: 
+[1.348s] -- Added test 'lint_cmake' to check CMake code style
+[1.348s] -- Added test 'uncrustify' to check C / C++ code style
+[1.349s] -- Configured uncrustify additional arguments: 
+[1.349s] -- Added test 'xmllint' to check XML markup files
+[1.352s] -- Configuring done
+[1.367s] -- Generating done
+[1.368s] -- Build files have been written to: /home/apple/gcamp_ros2_ws/build/cpp_action_pkg
+[1.374s] Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_action_pkg' returned '0': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apple/gcamp_ros2_ws/install/cpp_action_pkg
+[1.376s] Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_action_pkg': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/cpp_action_pkg -- -j12 -l12
+[1.407s] [35m[1mScanning dependencies of target fibonacci_action_server_oop_node[0m
+[1.407s] [35m[1mScanning dependencies of target fibonacci_action_server_node[0m
+[1.407s] [35m[1mScanning dependencies of target fibonacci_action_client_oop_node[0m
+[1.407s] [35m[1mScanning dependencies of target fibonacci_action_client_node[0m
+[1.439s] [ 12%] [32mBuilding CXX object CMakeFiles/fibonacci_action_server_node.dir/src/fibonacci_action_server.cpp.o[0m
+[1.439s] [ 25%] [32mBuilding CXX object CMakeFiles/fibonacci_action_server_oop_node.dir/src/fibonacci_action_server_oop.cpp.o[0m
+[1.439s] [ 37%] [32mBuilding CXX object CMakeFiles/fibonacci_action_client_node.dir/src/fibonacci_action_client.cpp.o[0m
+[1.440s] [ 50%] [32mBuilding CXX object CMakeFiles/fibonacci_action_client_oop_node.dir/src/fibonacci_action_client_oop.cpp.o[0m
+[3.843s] [ 62%] [32m[1mLinking CXX executable fibonacci_action_server_node[0m
+[3.934s] [ 75%] [32m[1mLinking CXX executable fibonacci_action_server_oop_node[0m
+[4.014s] [ 75%] Built target fibonacci_action_server_node
+[4.102s] [ 75%] Built target fibonacci_action_server_oop_node
+[4.403s] [ 87%] [32m[1mLinking CXX executable fibonacci_action_client_oop_node[0m
+[4.561s] [ 87%] Built target fibonacci_action_client_oop_node
+[5.036s] [100%] [32m[1mLinking CXX executable fibonacci_action_client_node[0m
+[5.170s] [100%] Built target fibonacci_action_client_node
+[5.178s] Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_action_pkg' returned '0': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/cpp_action_pkg -- -j12 -l12
+[5.202s] Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_action_pkg': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/cpp_action_pkg
+[5.209s] -- Install configuration: ""
+[5.210s] -- Execute custom install script
+[5.210s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_action_pkg/lib/cpp_action_pkg/fibonacci_action_client_node
+[5.218s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_action_pkg/lib/cpp_action_pkg/fibonacci_action_client_oop_node
+[5.226s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_action_pkg/lib/cpp_action_pkg/fibonacci_action_server_node
+[5.234s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_action_pkg/lib/cpp_action_pkg/fibonacci_action_server_oop_node
+[5.241s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_action_pkg
+[5.247s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_action_pkg
+[5.254s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/environment/ament_prefix_path.sh
+[5.261s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/environment/ament_prefix_path.dsv
+[5.269s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/environment/path.sh
+[5.276s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/environment/path.dsv
+[5.284s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/local_setup.bash
+[5.290s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/local_setup.sh
+[5.299s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/local_setup.zsh
+[5.304s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/local_setup.dsv
+[5.310s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.dsv
+[5.317s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/ament_index/resource_index/packages/cpp_action_pkg
+[5.324s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/cmake/cpp_action_pkgConfig.cmake
+[5.330s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/cmake/cpp_action_pkgConfig-version.cmake
+[5.337s] -- Symlinking: /home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.xml
+[5.346s] Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_action_pkg' returned '0': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/cpp_action_pkg

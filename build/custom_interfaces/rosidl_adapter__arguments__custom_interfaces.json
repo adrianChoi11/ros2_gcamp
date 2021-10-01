@@ -1,0 +1,10 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces:msg/Num.msg",
+    "/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces:srv/AddThreeInts.srv",
+    "/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces:srv/TurningControl.srv",
+    "/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces:action/Fibonacci.action",
+    "/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces:action/Maze.action"
+  ]
+}

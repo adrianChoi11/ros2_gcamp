@@ -1,0 +1,21 @@
+[0.458s] Invoking command in '/home/apple/gcamp_ros2_ws/build/py_topic_pkg': PYTHONPATH=/home/apple/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/apple/gcamp_ros2_ws/install/py_topic_pkg --editable --build-directory /home/apple/gcamp_ros2_ws/build/py_topic_pkg/build --no-deps install_data --install-dir /home/apple/gcamp_ros2_ws/install/py_topic_pkg
+[0.715s] running develop
+[0.834s] running egg_info
+[0.834s] writing py_topic_pkg.egg-info/PKG-INFO
+[0.834s] writing dependency_links to py_topic_pkg.egg-info/dependency_links.txt
+[0.834s] writing entry points to py_topic_pkg.egg-info/entry_points.txt
+[0.835s] writing requirements to py_topic_pkg.egg-info/requires.txt
+[0.835s] writing top-level names to py_topic_pkg.egg-info/top_level.txt
+[0.860s] reading manifest file 'py_topic_pkg.egg-info/SOURCES.txt'
+[0.861s] writing manifest file 'py_topic_pkg.egg-info/SOURCES.txt'
+[0.893s] running build_ext
+[0.893s] Creating /home/apple/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages/py-topic-pkg.egg-link (link to .)
+[0.894s] Installing cmd_vel_pub_node script to /home/apple/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[0.894s] Installing endless_cmd_vel_pub_node script to /home/apple/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[0.895s] Installing laser_raw_node script to /home/apple/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[0.895s] Installing laser_sub_node script to /home/apple/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[0.895s] Installing parking_node script to /home/apple/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[0.895s] 
+[0.895s] Installed /home/apple/gcamp_ros2_ws/build/py_topic_pkg
+[0.895s] running install_data
+[0.928s] Invoked command in '/home/apple/gcamp_ros2_ws/build/py_topic_pkg' returned '0': PYTHONPATH=/home/apple/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/apple/gcamp_ros2_ws/install/py_topic_pkg --editable --build-directory /home/apple/gcamp_ros2_ws/build/py_topic_pkg/build --no-deps install_data --install-dir /home/apple/gcamp_ros2_ws/install/py_topic_pkg

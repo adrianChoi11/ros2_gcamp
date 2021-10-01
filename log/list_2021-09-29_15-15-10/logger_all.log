@@ -1,0 +1,184 @@
+[0.197s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/apple/gcamp_ros2_ws']
+[0.197s] DEBUG:colcon:Parsed command line arguments: Namespace(base_paths=['/home/apple/gcamp_ros2_ws'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f53b1e826a0>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f53b1e826a0>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f53b1d86040>)
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.217s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/apple/gcamp_ros2_ws'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/build) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/build) ignored
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/install) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/install) ignored
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/log) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/log) ignored
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg' with type 'ros.ament_cmake' and name 'cpp_action_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg' with type 'ros.ament_cmake' and name 'cpp_first_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg' with type 'ros.ament_cmake' and name 'cpp_service_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial' with type 'ros.ament_cmake' and name 'cpp_service_tutorial'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg' with type 'ros.ament_cmake' and name 'cpp_topic_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo' with type 'ros.ament_cmake' and name 'gcamp_gazebo'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/image) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/image) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/image) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/image) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/image) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/image) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/image) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/image) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/image) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/image) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/image) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/image) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/image) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/image) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg' with type 'ros.ament_python' and name 'py_action_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg' with type 'ros.ament_python' and name 'py_first_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg' with type 'ros.ament_python' and name 'py_service_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg' with type 'ros.ament_python' and name 'py_topic_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

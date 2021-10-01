@@ -1,0 +1,787 @@
+[0.213s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.213s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f64a9ac7100>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f64a9ac7100>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f64a9ac7550>)
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.217s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/apple/gcamp_ros2_ws'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/cpp_action_pkg' with type 'ros.ament_cmake' and name 'cpp_action_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/cpp_first_pkg' with type 'ros.ament_cmake' and name 'cpp_first_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/cpp_service_pkg' with type 'ros.ament_cmake' and name 'cpp_service_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/cpp_service_tutorial' with type 'ros.ament_cmake' and name 'cpp_service_tutorial'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/cpp_topic_pkg' with type 'ros.ament_cmake' and name 'cpp_topic_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/gcamp_gazebo' with type 'ros.ament_cmake' and name 'gcamp_gazebo'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/py_action_pkg' with type 'ros.ament_python' and name 'py_action_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/py_first_pkg' with type 'ros.ament_python' and name 'py_first_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/py_service_pkg' with type 'ros.ament_python' and name 'py_service_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/py_topic_pkg' with type 'ros.ament_python' and name 'py_topic_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_first_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/apple/gcamp_ros2_ws/build/cpp_first_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg', 'merge_install': False, 'path': '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_service_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/apple/gcamp_ros2_ws/build/cpp_service_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial', 'merge_install': False, 'path': '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial', 'symlink_install': True, 'test_result_base': None}
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'cmake_target' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.257s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_topic_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/apple/gcamp_ros2_ws/build/cpp_topic_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg', 'merge_install': False, 'path': '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.259s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/apple/gcamp_ros2_ws/build/custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/apple/gcamp_ros2_ws/install/custom_interfaces', 'merge_install': False, 'path': '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.261s] DEBUG:colcon.colcon_core.verb:Building package 'gcamp_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/apple/gcamp_ros2_ws/build/gcamp_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo', 'merge_install': False, 'path': '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'cmake_target' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.262s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.263s] DEBUG:colcon.colcon_core.verb:Building package 'py_first_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/apple/gcamp_ros2_ws/build/py_first_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/apple/gcamp_ros2_ws/install/py_first_pkg', 'merge_install': False, 'path': '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'cmake_target' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.264s] DEBUG:colcon.colcon_core.verb:Building package 'py_topic_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/apple/gcamp_ros2_ws/build/py_topic_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/apple/gcamp_ros2_ws/install/py_topic_pkg', 'merge_install': False, 'path': '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'cmake_target' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.266s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_action_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/apple/gcamp_ros2_ws/build/cpp_action_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg', 'merge_install': False, 'path': '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_service_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/apple/gcamp_ros2_ws/build/cpp_service_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg', 'merge_install': False, 'path': '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'py_action_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/apple/gcamp_ros2_ws/build/py_action_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/apple/gcamp_ros2_ws/install/py_action_pkg', 'merge_install': False, 'path': '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'cmake_target' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.272s] DEBUG:colcon.colcon_core.verb:Building package 'py_service_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/apple/gcamp_ros2_ws/build/py_service_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/apple/gcamp_ros2_ws/install/py_service_pkg', 'merge_install': False, 'path': '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.272s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.274s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.274s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces' with build type 'ament_cmake'
+[0.274s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces'
+[0.277s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.277s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.277s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.279s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.281s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg' with build type 'ament_cmake'
+[0.281s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg'
+[0.282s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.282s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.284s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.285s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial' with build type 'ament_cmake'
+[0.286s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial'
+[0.286s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.286s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.288s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.289s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg' with build type 'ament_cmake'
+[0.290s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg'
+[0.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.294s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo' with build type 'ament_cmake'
+[0.294s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo'
+[0.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.297s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.298s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg' with build type 'ament_python'
+[0.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_first_pkg', 'ament_prefix_path')
+[0.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/hook/ament_prefix_path.ps1'
+[0.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/hook/ament_prefix_path.dsv'
+[0.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/hook/ament_prefix_path.sh'
+[0.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.303s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.304s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg' with build type 'ament_python'
+[0.305s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_topic_pkg', 'ament_prefix_path')
+[0.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/hook/ament_prefix_path.ps1'
+[0.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/hook/ament_prefix_path.dsv'
+[0.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/hook/ament_prefix_path.sh'
+[0.307s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.307s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.308s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake /home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apple/gcamp_ros2_ws/install/custom_interfaces
+[0.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake /home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apple/gcamp_ros2_ws/install/cpp_first_pkg
+[0.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake /home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial
+[0.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake /home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg
+[0.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/gcamp_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/gcamp_gazebo -- -j12 -l12
+[0.525s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg'
+[0.526s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.526s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.527s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.729s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg'
+[0.730s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.730s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.733s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/gcamp_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/gcamp_gazebo -- -j12 -l12
+[0.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/py_first_pkg': PYTHONPATH=/home/apple/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/apple/gcamp_ros2_ws/install/py_first_pkg --editable --build-directory /home/apple/gcamp_ros2_ws/build/py_first_pkg/build --no-deps install_data --install-dir /home/apple/gcamp_ros2_ws/install/py_first_pkg
+[0.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/py_topic_pkg': PYTHONPATH=/home/apple/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/apple/gcamp_ros2_ws/install/py_topic_pkg --editable --build-directory /home/apple/gcamp_ros2_ws/build/py_topic_pkg/build --no-deps install_data --install-dir /home/apple/gcamp_ros2_ws/install/py_topic_pkg
+[0.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/gcamp_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/gcamp_gazebo
+[0.793s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gcamp_gazebo)
+[0.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/gcamp_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/gcamp_gazebo
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo' for CMake module files
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo' for CMake config files
+[0.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('gcamp_gazebo', 'cmake_prefix_path')
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/hook/cmake_prefix_path.ps1'
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/hook/cmake_prefix_path.dsv'
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/hook/cmake_prefix_path.sh'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/bin'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/lib/pkgconfig/gcamp_gazebo.pc'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/lib/python3.8/site-packages'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.ps1'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.dsv'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.sh'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.bash'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.zsh'
+[0.802s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/share/colcon-core/packages/gcamp_gazebo)
+[0.820s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gcamp_gazebo)
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo' for CMake module files
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo' for CMake config files
+[0.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('gcamp_gazebo', 'cmake_prefix_path')
+[0.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/hook/cmake_prefix_path.ps1'
+[0.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/hook/cmake_prefix_path.dsv'
+[0.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/hook/cmake_prefix_path.sh'
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/bin'
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/lib/pkgconfig/gcamp_gazebo.pc'
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/lib/python3.8/site-packages'
+[0.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.ps1'
+[0.823s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.dsv'
+[0.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.sh'
+[0.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.bash'
+[0.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.zsh'
+[0.824s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apple/gcamp_ros2_ws/install/gcamp_gazebo/share/colcon-core/packages/gcamp_gazebo)
+[1.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_first_pkg', 'pythonpath_develop')
+[1.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/build/py_first_pkg/share/py_first_pkg/hook/pythonpath_develop.ps1'
+[1.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/py_first_pkg' returned '0': PYTHONPATH=/home/apple/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/apple/gcamp_ros2_ws/install/py_first_pkg --editable --build-directory /home/apple/gcamp_ros2_ws/build/py_first_pkg/build --no-deps install_data --install-dir /home/apple/gcamp_ros2_ws/install/py_first_pkg
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/build/py_first_pkg/share/py_first_pkg/hook/pythonpath_develop.dsv'
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/build/py_first_pkg/share/py_first_pkg/hook/pythonpath_develop.sh'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_first_pkg' for CMake module files
+[1.218s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_first_pkg' for CMake config files
+[1.218s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_first_pkg/lib'
+[1.218s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_first_pkg/bin'
+[1.218s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_first_pkg/lib/pkgconfig/py_first_pkg.pc'
+[1.218s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages'
+[1.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_first_pkg', 'pythonpath')
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/hook/pythonpath.ps1'
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/hook/pythonpath.dsv'
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/hook/pythonpath.sh'
+[1.220s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_first_pkg)
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/package.ps1'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apple/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/package.dsv'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/package.sh'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/package.bash'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/package.zsh'
+[1.222s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apple/gcamp_ros2_ws/install/py_first_pkg/share/colcon-core/packages/py_first_pkg)
+[1.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_topic_pkg', 'pythonpath_develop')
+[1.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/build/py_topic_pkg/share/py_topic_pkg/hook/pythonpath_develop.ps1'
+[1.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/py_topic_pkg' returned '0': PYTHONPATH=/home/apple/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/apple/gcamp_ros2_ws/install/py_topic_pkg --editable --build-directory /home/apple/gcamp_ros2_ws/build/py_topic_pkg/build --no-deps install_data --install-dir /home/apple/gcamp_ros2_ws/install/py_topic_pkg
+[1.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/build/py_topic_pkg/share/py_topic_pkg/hook/pythonpath_develop.dsv'
+[1.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/build/py_topic_pkg/share/py_topic_pkg/hook/pythonpath_develop.sh'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_topic_pkg' for CMake module files
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_topic_pkg' for CMake config files
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_topic_pkg/lib'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_topic_pkg/bin'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_topic_pkg/lib/pkgconfig/py_topic_pkg.pc'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages'
+[1.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_topic_pkg', 'pythonpath')
+[1.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/hook/pythonpath.ps1'
+[1.238s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/hook/pythonpath.dsv'
+[1.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/hook/pythonpath.sh'
+[1.239s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_topic_pkg)
+[1.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/package.ps1'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apple/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/package.dsv'
+[1.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/package.sh'
+[1.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/package.bash'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/package.zsh'
+[1.242s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apple/gcamp_ros2_ws/install/py_topic_pkg/share/colcon-core/packages/py_topic_pkg)
+[1.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake /home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apple/gcamp_ros2_ws/install/cpp_first_pkg
+[1.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/cpp_first_pkg -- -j12 -l12
+[1.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake /home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg
+[1.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/cpp_topic_pkg -- -j12 -l12
+[1.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake /home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apple/gcamp_ros2_ws/install/custom_interfaces
+[1.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/custom_interfaces -- -j12 -l12
+[1.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake /home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial
+[1.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/cpp_service_tutorial -- -j12 -l12
+[6.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/cpp_first_pkg -- -j12 -l12
+[7.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/cpp_first_pkg
+[7.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/cpp_service_tutorial -- -j12 -l12
+[7.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/cpp_service_tutorial
+[7.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_first_pkg)
+[7.533s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg' for CMake module files
+[7.534s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg' for CMake config files
+[7.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_first_pkg', 'cmake_prefix_path')
+[7.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/hook/cmake_prefix_path.ps1'
+[7.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/hook/cmake_prefix_path.dsv'
+[7.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/hook/cmake_prefix_path.sh'
+[7.538s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/lib'
+[7.538s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/bin'
+[7.538s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/lib/pkgconfig/cpp_first_pkg.pc'
+[7.539s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/lib/python3.8/site-packages'
+[7.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.ps1'
+[7.541s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.dsv'
+[7.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.sh'
+[7.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.bash'
+[7.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.zsh'
+[7.543s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/share/colcon-core/packages/cpp_first_pkg)
+[7.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/cpp_first_pkg
+[7.582s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_first_pkg)
+[7.583s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg' for CMake module files
+[7.584s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg' for CMake config files
+[7.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_first_pkg', 'cmake_prefix_path')
+[7.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/hook/cmake_prefix_path.ps1'
+[7.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/hook/cmake_prefix_path.dsv'
+[7.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/hook/cmake_prefix_path.sh'
+[7.587s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/lib'
+[7.587s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/bin'
+[7.587s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/lib/pkgconfig/cpp_first_pkg.pc'
+[7.587s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/lib/python3.8/site-packages'
+[7.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.ps1'
+[7.589s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.dsv'
+[7.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.sh'
+[7.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.bash'
+[7.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.zsh'
+[7.592s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apple/gcamp_ros2_ws/install/cpp_first_pkg/share/colcon-core/packages/cpp_first_pkg)
+[7.699s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_service_tutorial)
+[7.701s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial' for CMake module files
+[7.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/cpp_service_tutorial
+[7.702s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial' for CMake config files
+[7.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_service_tutorial', 'cmake_prefix_path')
+[7.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/hook/cmake_prefix_path.ps1'
+[7.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/hook/cmake_prefix_path.dsv'
+[7.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/hook/cmake_prefix_path.sh'
+[7.703s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/lib'
+[7.703s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/bin'
+[7.704s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/lib/pkgconfig/cpp_service_tutorial.pc'
+[7.704s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/lib/python3.8/site-packages'
+[7.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.ps1'
+[7.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.dsv'
+[7.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.sh'
+[7.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.bash'
+[7.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.zsh'
+[7.705s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/colcon-core/packages/cpp_service_tutorial)
+[7.731s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_service_tutorial)
+[7.732s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial' for CMake module files
+[7.732s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial' for CMake config files
+[7.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_service_tutorial', 'cmake_prefix_path')
+[7.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/hook/cmake_prefix_path.ps1'
+[7.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/hook/cmake_prefix_path.dsv'
+[7.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/hook/cmake_prefix_path.sh'
+[7.735s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/lib'
+[7.735s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/bin'
+[7.735s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/lib/pkgconfig/cpp_service_tutorial.pc'
+[7.735s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/lib/python3.8/site-packages'
+[7.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.ps1'
+[7.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.dsv'
+[7.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.sh'
+[7.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.bash'
+[7.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.zsh'
+[7.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apple/gcamp_ros2_ws/install/cpp_service_tutorial/share/colcon-core/packages/cpp_service_tutorial)
+[10.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/cpp_topic_pkg -- -j12 -l12
+[10.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/cpp_topic_pkg
+[10.387s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_topic_pkg)
+[10.388s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg' for CMake module files
+[10.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/cpp_topic_pkg
+[10.389s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg' for CMake config files
+[10.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_topic_pkg', 'cmake_prefix_path')
+[10.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/hook/cmake_prefix_path.ps1'
+[10.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/hook/cmake_prefix_path.dsv'
+[10.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/hook/cmake_prefix_path.sh'
+[10.390s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/lib'
+[10.390s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/bin'
+[10.390s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/lib/pkgconfig/cpp_topic_pkg.pc'
+[10.390s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/lib/python3.8/site-packages'
+[10.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.ps1'
+[10.391s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.dsv'
+[10.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.sh'
+[10.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.bash'
+[10.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.zsh'
+[10.392s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/colcon-core/packages/cpp_topic_pkg)
+[10.418s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_topic_pkg)
+[10.419s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg' for CMake module files
+[10.419s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg' for CMake config files
+[10.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_topic_pkg', 'cmake_prefix_path')
+[10.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/hook/cmake_prefix_path.ps1'
+[10.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/hook/cmake_prefix_path.dsv'
+[10.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/hook/cmake_prefix_path.sh'
+[10.421s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/lib'
+[10.421s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/bin'
+[10.421s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/lib/pkgconfig/cpp_topic_pkg.pc'
+[10.421s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/lib/python3.8/site-packages'
+[10.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.ps1'
+[10.422s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.dsv'
+[10.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.sh'
+[10.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.bash'
+[10.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.zsh'
+[10.423s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apple/gcamp_ros2_ws/install/cpp_topic_pkg/share/colcon-core/packages/cpp_topic_pkg)
+[10.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/custom_interfaces -- -j12 -l12
+[10.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/custom_interfaces
+[11.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[11.551s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/custom_interfaces' for CMake module files
+[11.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/custom_interfaces
+[11.552s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/custom_interfaces' for CMake config files
+[11.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[11.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[11.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[11.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[11.554s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib'
+[11.554s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[11.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[11.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[11.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[11.555s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/custom_interfaces/bin'
+[11.555s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[11.555s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages'
+[11.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'pythonpath')
+[11.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.ps1'
+[11.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.dsv'
+[11.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.sh'
+[11.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[11.557s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[11.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[11.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[11.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[11.558s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[11.625s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[11.626s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/custom_interfaces' for CMake module files
+[11.626s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/custom_interfaces' for CMake config files
+[11.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[11.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[11.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[11.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[11.628s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib'
+[11.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[11.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[11.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[11.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[11.629s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/custom_interfaces/bin'
+[11.629s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[11.629s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages'
+[11.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'pythonpath')
+[11.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.ps1'
+[11.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.dsv'
+[11.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.sh'
+[11.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[11.631s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[11.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[11.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[11.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[11.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apple/gcamp_ros2_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[11.633s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg' with build type 'ament_cmake'
+[11.633s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg'
+[11.633s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.633s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.635s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[11.637s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg' with build type 'ament_cmake'
+[11.637s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg'
+[11.638s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.638s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.639s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[11.641s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg' with build type 'ament_python'
+[11.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_action_pkg', 'ament_prefix_path')
+[11.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/hook/ament_prefix_path.ps1'
+[11.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/hook/ament_prefix_path.dsv'
+[11.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/hook/ament_prefix_path.sh'
+[11.643s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.643s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.645s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[11.647s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg' with build type 'ament_python'
+[11.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_service_pkg', 'ament_prefix_path')
+[11.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/hook/ament_prefix_path.ps1'
+[11.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/hook/ament_prefix_path.dsv'
+[11.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/hook/ament_prefix_path.sh'
+[11.649s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.649s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.651s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[11.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_action_pkg': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apple/gcamp_ros2_ws/install/cpp_action_pkg
+[11.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_service_pkg': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apple/gcamp_ros2_ws/install/cpp_service_pkg
+[11.838s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg'
+[11.839s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.839s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.840s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[12.014s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg'
+[12.015s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.015s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.017s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[12.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/py_action_pkg': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/apple/gcamp_ros2_ws/install/py_action_pkg --editable --build-directory /home/apple/gcamp_ros2_ws/build/py_action_pkg/build --no-deps install_data --install-dir /home/apple/gcamp_ros2_ws/install/py_action_pkg
+[12.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/py_service_pkg': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/apple/gcamp_ros2_ws/install/py_service_pkg --editable --build-directory /home/apple/gcamp_ros2_ws/build/py_service_pkg/build --no-deps install_data --install-dir /home/apple/gcamp_ros2_ws/install/py_service_pkg
+[12.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_action_pkg', 'pythonpath_develop')
+[12.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/py_action_pkg' returned '0': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/apple/gcamp_ros2_ws/install/py_action_pkg --editable --build-directory /home/apple/gcamp_ros2_ws/build/py_action_pkg/build --no-deps install_data --install-dir /home/apple/gcamp_ros2_ws/install/py_action_pkg
+[12.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/build/py_action_pkg/share/py_action_pkg/hook/pythonpath_develop.ps1'
+[12.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/build/py_action_pkg/share/py_action_pkg/hook/pythonpath_develop.dsv'
+[12.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/build/py_action_pkg/share/py_action_pkg/hook/pythonpath_develop.sh'
+[12.378s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_action_pkg' for CMake module files
+[12.378s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_action_pkg' for CMake config files
+[12.378s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_action_pkg/lib'
+[12.378s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_action_pkg/bin'
+[12.378s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_action_pkg/lib/pkgconfig/py_action_pkg.pc'
+[12.378s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages'
+[12.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_action_pkg', 'pythonpath')
+[12.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/hook/pythonpath.ps1'
+[12.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/hook/pythonpath.dsv'
+[12.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/hook/pythonpath.sh'
+[12.380s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_action_pkg)
+[12.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/package.ps1'
+[12.381s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apple/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/package.dsv'
+[12.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/package.sh'
+[12.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/package.bash'
+[12.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/package.zsh'
+[12.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apple/gcamp_ros2_ws/install/py_action_pkg/share/colcon-core/packages/py_action_pkg)
+[12.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_service_pkg', 'pythonpath_develop')
+[12.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/build/py_service_pkg/share/py_service_pkg/hook/pythonpath_develop.ps1'
+[12.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/py_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/apple/gcamp_ros2_ws/install/py_service_pkg --editable --build-directory /home/apple/gcamp_ros2_ws/build/py_service_pkg/build --no-deps install_data --install-dir /home/apple/gcamp_ros2_ws/install/py_service_pkg
+[12.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/build/py_service_pkg/share/py_service_pkg/hook/pythonpath_develop.dsv'
+[12.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/build/py_service_pkg/share/py_service_pkg/hook/pythonpath_develop.sh'
+[12.386s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_service_pkg' for CMake module files
+[12.386s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_service_pkg' for CMake config files
+[12.387s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_service_pkg/lib'
+[12.387s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_service_pkg/bin'
+[12.387s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_service_pkg/lib/pkgconfig/py_service_pkg.pc'
+[12.387s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages'
+[12.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_service_pkg', 'pythonpath')
+[12.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/hook/pythonpath.ps1'
+[12.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/hook/pythonpath.dsv'
+[12.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/hook/pythonpath.sh'
+[12.388s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_service_pkg)
+[12.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/package.ps1'
+[12.389s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apple/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/package.dsv'
+[12.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/package.sh'
+[12.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/package.bash'
+[12.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/package.zsh'
+[12.390s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apple/gcamp_ros2_ws/install/py_service_pkg/share/colcon-core/packages/py_service_pkg)
+[13.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_action_pkg' returned '0': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apple/gcamp_ros2_ws/install/cpp_action_pkg
+[13.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_action_pkg': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/cpp_action_pkg -- -j12 -l12
+[13.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/apple/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apple/gcamp_ros2_ws/install/cpp_service_pkg
+[13.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_service_pkg': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/cpp_service_pkg -- -j12 -l12
+[16.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_action_pkg' returned '0': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/cpp_action_pkg -- -j12 -l12
+[16.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_action_pkg': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/cpp_action_pkg
+[16.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/apple/gcamp_ros2_ws/build/cpp_service_pkg -- -j12 -l12
+[16.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apple/gcamp_ros2_ws/build/cpp_service_pkg': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/cpp_service_pkg
+[16.979s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_action_pkg)
+[16.980s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg' for CMake module files
+[16.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_action_pkg' returned '0': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/cpp_action_pkg
+[16.981s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg' for CMake config files
+[16.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_action_pkg', 'cmake_prefix_path')
+[16.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/hook/cmake_prefix_path.ps1'
+[16.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/hook/cmake_prefix_path.dsv'
+[16.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/hook/cmake_prefix_path.sh'
+[16.982s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/lib'
+[16.982s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/bin'
+[16.982s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/lib/pkgconfig/cpp_action_pkg.pc'
+[16.982s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/lib/python3.8/site-packages'
+[16.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.ps1'
+[16.983s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.dsv'
+[16.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.sh'
+[16.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.bash'
+[16.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.zsh'
+[16.984s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/colcon-core/packages/cpp_action_pkg)
+[17.006s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_action_pkg)
+[17.007s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg' for CMake module files
+[17.007s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg' for CMake config files
+[17.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_action_pkg', 'cmake_prefix_path')
+[17.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/hook/cmake_prefix_path.ps1'
+[17.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/hook/cmake_prefix_path.dsv'
+[17.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/hook/cmake_prefix_path.sh'
+[17.009s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/lib'
+[17.009s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/bin'
+[17.009s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/lib/pkgconfig/cpp_action_pkg.pc'
+[17.009s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/lib/python3.8/site-packages'
+[17.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.ps1'
+[17.010s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.dsv'
+[17.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.sh'
+[17.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.bash'
+[17.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.zsh'
+[17.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apple/gcamp_ros2_ws/install/cpp_action_pkg/share/colcon-core/packages/cpp_action_pkg)
+[17.085s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_service_pkg)
+[17.086s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg' for CMake module files
+[17.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apple/gcamp_ros2_ws/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces:/home/apple/gcamp_ros2_ws/install/gcamp_gazebo:/home/apple/gcamp_ros2_ws/install/py_topic_pkg:/home/apple/gcamp_ros2_ws/install/py_service_pkg:/home/apple/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/apple/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/apple/gcamp_ros2_ws/build/cpp_service_pkg
+[17.087s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg' for CMake config files
+[17.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_service_pkg', 'cmake_prefix_path')
+[17.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/hook/cmake_prefix_path.ps1'
+[17.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/hook/cmake_prefix_path.dsv'
+[17.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/hook/cmake_prefix_path.sh'
+[17.088s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/lib'
+[17.088s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/bin'
+[17.088s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/lib/pkgconfig/cpp_service_pkg.pc'
+[17.088s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/lib/python3.8/site-packages'
+[17.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.ps1'
+[17.089s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.dsv'
+[17.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.sh'
+[17.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.bash'
+[17.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.zsh'
+[17.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/colcon-core/packages/cpp_service_pkg)
+[17.112s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_service_pkg)
+[17.112s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg' for CMake module files
+[17.113s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg' for CMake config files
+[17.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_service_pkg', 'cmake_prefix_path')
+[17.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/hook/cmake_prefix_path.ps1'
+[17.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/hook/cmake_prefix_path.dsv'
+[17.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/hook/cmake_prefix_path.sh'
+[17.114s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/lib'
+[17.114s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/bin'
+[17.114s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/lib/pkgconfig/cpp_service_pkg.pc'
+[17.115s] Level 1:colcon.colcon_core.environment:checking '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/lib/python3.8/site-packages'
+[17.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.ps1'
+[17.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.dsv'
+[17.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.sh'
+[17.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.bash'
+[17.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.zsh'
+[17.116s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apple/gcamp_ros2_ws/install/cpp_service_pkg/share/colcon-core/packages/cpp_service_pkg)
+[17.117s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.117s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.117s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.117s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.122s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.122s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.122s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.133s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.133s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/apple/gcamp_ros2_ws/install/local_setup.ps1'
+[17.134s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/apple/gcamp_ros2_ws/install/_local_setup_util_ps1.py'
+[17.135s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/apple/gcamp_ros2_ws/install/setup.ps1'
+[17.136s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/apple/gcamp_ros2_ws/install/local_setup.sh'
+[17.136s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/apple/gcamp_ros2_ws/install/_local_setup_util_sh.py'
+[17.137s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/apple/gcamp_ros2_ws/install/setup.sh'
+[17.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/apple/gcamp_ros2_ws/install/local_setup.bash'
+[17.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/apple/gcamp_ros2_ws/install/setup.bash'
+[17.140s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/apple/gcamp_ros2_ws/install/local_setup.zsh'
+[17.140s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/apple/gcamp_ros2_ws/install/setup.zsh'
